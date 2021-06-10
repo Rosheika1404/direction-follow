@@ -6,27 +6,27 @@ let errored = false;
 console.log("\n---------------------------------\n\n")
 
 if(values.testGroup === "a") {
-	if(values.birthYear !== 1948) {
+	if(values.birthYear !== 1991) {
 		console.error(`birthYear is incorrect, it's currently: "${values.birthYear}"`);
 		errored = true;
 	}
 	
-	if(values.thisYear !== 1965) {
+	if(values.thisYear !== 2021) {
 		console.error(`thisYear is incorrect, it's currently: "${values.thisYear}"`);
 		errored = true;
 	}
 	
-	if(values.firstName !== "Carlos") {
+	if(values.firstName !== "Rosheika") {
 		console.error(`firstName is incorrect, it's currently: "${values.firstName}"`);
 		errored = true;
 	}
 	
-	if(values.lastName !== "Stevenson") {
+	if(values.lastName !== "Oakley") {
 		console.error(`lastName is incorrect, it's currently: "${values.lastName}"`);
 		errored = true;
 	}
 	
-	if(values.greeting !== "Hello! My name is Carlos Stevenson and I am 17 years old.") {
+	if(values.greeting !== "Hello! My name is Rosheika Oakley and I am 30 years old.") {
 		console.error(`greeting is incorrect, it's currently: "${values.greeting}"`);
 		errored = true;
 	}
